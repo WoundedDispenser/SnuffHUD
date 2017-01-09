@@ -1,0 +1,112 @@
+// Overhealed Health
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage Alpha	"255"	Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage Alpha	"0"		Linear 0.2 0.4
+
+	// Calls the event HudHealthBonusPulseStop to end the animation
+	RunEvent HudHealthBonusPulseLoop	0.4
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 		0.0
+	StopEvent HudHealthBonusPulseLoop 	0.0
+}
+
+//======================================================================================
+// Low Health (Dying)
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage Alpha	"255"	Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage Alpha	"0"		Linear 0.125 0.075
+	
+	// Calls the event HudHealthDyingPulseStop to end the animation
+	RunEvent HudHealthDyingPulseLoop	0.25
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse		0.0
+	StopEvent HudHealthDyingPulseLoop 	0.0
+}
+
+//======================================================================================
+// Low Ammo 
+event HudLowAmmoPulse
+{
+	Animate	HudWeaponLowAmmoImage		Alpha	"255"	Linear 0.0 0.075
+	Animate	HudWeaponLowAmmoImage		Alpha	"0"		Linear 0.125 0.075
+	
+	// Calls the event HudLowAmmoPulseStop to end the animation	
+	RunEvent HudLowAmmoPulseLoop		0.25
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse 			0.0
+	StopEvent HudLowAmmoPulseLoop 		0.0
+}
+
+//======================================================================================
+// Color flash when the Medic has full Ubercharge
+event HudMedicCharged
+{
+	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
+	
+	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
+	
+	// Calls the event HudMedicChargedStop to end the animation	
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 		0.0
+	StopEvent HudMedicChargedLoop 	0.0
+	
+	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
+}
+
+//======================================================================================
+// Animation whenever you damage a player (typically used for custom crosshairs)
+event DamagedPlayer 
+{
+	StopEvent HitMarker 0.0
+	RunEvent HitMarker 0.01
+}
+
+event HitMarker
+{
+	// empty
+}
+
+//======================================================================================
+// The dropdown list of avaliable game modes in the main menu
+event MMenu_PlayList_Collapse
+{
+	Animate ItemsContainer			ypos 160 Spline 0 0.4
+	Animate EventPromo				ypos 210 Spline 0 0.4
+	Animate SafeMode				ypos 210 Spline 0 0.4
+	Animate VRBGPanel				ypos 373 Spline	0 0.4
+	Animate VRModeButton			ypos 379 Spline 0 0.4
+	Animate ShowPromoCodesButton	ypos 379 Spline 0 0.4
+
+	Animate PlayListContainer Tall 0 Spline 0 0.4
+
+	FireCommand 0 "soundentry Panel.SlideUp"
+}
+
+event MMenu_PlayList_Collapse_Immediate
+{
+	Animate ItemsContainer			ypos 160 Spline 0 0
+	Animate EventPromo				ypos 210 Spline 0 0
+	Animate VRBGPanel				ypos 373 Spline	0 0
+	Animate VRModeButton			ypos 379 Spline 0 0
+	Animate ShowPromoCodesButton	ypos 379 Spline 0 0
+
+	Animate PlayListContainer Tall 0 Spline 0 0
+}
