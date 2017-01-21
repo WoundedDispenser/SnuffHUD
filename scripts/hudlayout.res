@@ -28,8 +28,8 @@
 		"fieldName" 	"HudPlayerStatus"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"50"
-		"ypos"			"20"
+		"xpos"			"60"
+		"ypos"			"10"
 		"wide"			"f0"
 		"tall"			"480"
 	}
@@ -95,9 +95,9 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r138"
+		"xpos"			"c-70"
 		"xpos_minmode"	"r100"
-		"ypos"			"r69"
+		"ypos"			"c65"
 		"ypos_minmode"	"r34"
 		"xpos"			"r174"
 		"ypos"			"r90"
@@ -210,7 +210,7 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c-45"
+		"xpos"					"c-47"
 		"ypos"					"c-108"
 		"ypos_minmode"			"r134"
 		"wide"					"116"

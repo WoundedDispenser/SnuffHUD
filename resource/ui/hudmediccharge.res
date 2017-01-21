@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"0"
 		"wide"			"130"
 		"tall"			"65"
@@ -62,7 +62,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"Novecentobook26"
 	}
 	
 	"ChargeMeter"
@@ -178,9 +178,9 @@
 		"ypos"			"17"
 		"wide"			"36"
 		"tall"			"36"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/ico_health_cluster"
 		"scaleImage"	"1"	
 	}	

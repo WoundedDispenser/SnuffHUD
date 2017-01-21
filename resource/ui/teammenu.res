@@ -275,8 +275,8 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"0"		
 		"wide"			"f0"
 		"tall"			"480"
@@ -305,8 +305,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"r50"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"ypos_lodef"			"r74"
 		"ypos_hidef"			"r65"
 		"zpos"			"5"
@@ -376,8 +376,8 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"bluedoor"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"		
 		"wide"			"f0"
 		"tall"			"480"
@@ -449,8 +449,8 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"reddoor"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"		
 		"wide"			"f0"
 		"tall"			"480"

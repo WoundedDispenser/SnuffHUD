@@ -53,8 +53,17 @@ Scheme
 			"font" "resource/fonts/Cerbetica_edited.ttf"
 			"name" "Cerbetica_edited"
 		}
+		
+		"10"
+		{
+			"font" "resource/fonts/Primetime"
+			"name" "Primetime"
 		}
 		
+		"11"
+		}
+			"font" "resource/fonts/novecentobook.ttf"
+			"name" "Novecentobook"
 		}
 		
 		

@@ -270,6 +270,61 @@ Scheme
 			}
 		}
 		
+		"Novecentobook26"
+		{
+			"1"
+			{
+				"name" 		"novecentobook"
+				"tall" 		"26"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Novecentobook32"
+		{
+			"1"
+			{
+				"name" 		"novecentobook"
+				"tall" 		"32"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Novecentobook40"
+		{
+			"1"
+			{
+				"name" 		"novecentobook"
+				"tall" 		"40"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Novecentobook42"
+		{
+			"1"
+			{
+				"name" 		"novecentobook"
+				"tall" 		"42"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Primetime"  //Font 1
+		{
+			"1"
+			{
+				"name" 		"Primetime"
+				"tall"		"26"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		"Cerbetica14"
 		{
 			"1"

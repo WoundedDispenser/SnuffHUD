@@ -69,7 +69,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Cerbetica22"
+		"font"			"Cerbetica16"
 		
 	}
 }
