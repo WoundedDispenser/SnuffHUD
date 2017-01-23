@@ -60,7 +60,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultVerySmall"
+			"font"			"Oxygen8"
 			"xpos"			"110"
 			"ypos"			"0"
 			"wide"			"200"

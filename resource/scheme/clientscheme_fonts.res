@@ -270,6 +270,51 @@ Scheme
 			}
 		}
 		
+		"Oxygen8"
+		{
+			"1"
+			{
+				"name" 		"Oxygen"
+				"tall" 		"8"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Oxygen10"
+		{
+			"1"
+			{
+				"name" 		"Oxygen"
+				"tall" 		"10"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Oxygen15"
+		{
+			"1"
+			{
+				"name" 		"Oxygen"
+				"tall" 		"15"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"Oxygen20"
+		{
+			"1"
+			{
+				"name" 		"Oxygen"
+				"tall" 		"20"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		
 		"Novecentobook26"
 		{
 			"1"

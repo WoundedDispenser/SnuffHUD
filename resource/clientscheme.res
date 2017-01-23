@@ -61,10 +61,17 @@ Scheme
 		}
 		
 		"11"
-		}
+		{
 			"font" "resource/fonts/novecentobook.ttf"
 			"name" "Novecentobook"
 		}
+		
+		"12"
+		{
+			"font" "resource/fonts/Oxygen.ttf"
+			"name" "Oxygen"
+		}
+		
 		
 		
 		
